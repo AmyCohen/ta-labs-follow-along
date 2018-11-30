@@ -61,7 +61,7 @@ public class LibraryTest {
         votes.add("Bush");
         votes.add("Hedge");
         votes.add("Bush");
-        
+
         assertEquals("should return 'Bush' as having the most votes", "Bush", Library.tally(votes));
     }
 
